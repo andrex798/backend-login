@@ -1,5 +1,10 @@
 <h1>Configuracion e instalacion de laravel y react</h1>
 
+<strong>Tener en cuenta:</strong>
+<p>
+1. Se debe tener instalado apache y php igual o super a 7.3</br>
+2. Tener configurada la base de datos mysql para este proyecto, si se realiza desde sql server cambiar el driver en el archivo .env (DB_CONNECTION=mysql) por sqlsrv, tambien se debe activar la extension php_pdo_sqlsrv para que funcione correctamente la base de datos, se recomienda el uso del gestor XAMPP para la prueba local.
+</p>
 <strong>Pasos a seguir:</strong>
 <p>
 1. Instalar Composer https://getcomposer.org/</br>
